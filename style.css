@@ -1,0 +1,53 @@
+body{
+    background-color: #3E4FE9;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Reem Kufi', sans-serif; */
+    background-image: url("bluecornwhite.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    
+}
+.textcolor{
+    color: white;
+    text-align: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/*-------- Skills --------*/
+.skills{
+    text-align: center;
+    
+}
+.skills p{
+    
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.skills img{
+    width: 70px;
+    margin: 0 15px;
+}
+.skills p a{
+    color: #EB3349;
+}
+
+.buttons{
+    align-items: center;
+    
+    
+}
+
+.groww { transition: all .2s ease-in-out; }
+.groww:hover { transform: scale(1.1); }
+
+.capol{
+    text-decoration: underline;
+}
